@@ -36,9 +36,3 @@ The fifth step was to perform Hyperparameter Optimization on our model. GridSear
 The final step was to save the model as a pickle file to reuse it again for the Deployment purpose. pickle was used to dump the model at the desired location.
 
 The "Liver Disease Prediction.ipynb" file contains all these informations.
-
-# Limitations
-
-# Conclusions
-
-# future Work
