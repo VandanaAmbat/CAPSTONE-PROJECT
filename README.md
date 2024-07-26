@@ -26,7 +26,7 @@ A binary classification problem statement.
 # Project Description:
 After loading the dataset the first step was to perform an extensive Exploratory Data Analysis(EDA). Count plot for the target was made to check whether the dataset is balanced or not. It was a balanced dataset. Histograms and scatter plots were were made tp understand the distribution of the data and the correlation distribution. Then a correlation heatmap was plotted to check the correlation between all the independent features. Skweness and Kurtosis were conducted and found out that features like Diabetes and Hypertesnion tends to deviate more from the required values.
 
-The second step was to perform Feature Engneering. Missing values of the feature "Albumin_and_Globulin_Ratio" was handled by replacing it by its mean. Label Encoding was performed on "Gender", where 1 denotes Female and 0 denotes Male. The dataset was divided into independent(X) and dependent(y) features.
+The second step was to perform Feature Engneering. Label Encoding was performed on "Gender", where 1 denotes Female and 0 denotes Male. The dataset was divided into independent(X) and dependent(y) features.
 
 The Third step was Model Selection without Hyperparameter Tuning. The dataset was divided into indepenent and dependent features. Train test split was performed for getting the train and test datasets. Logistic Regression, Decision tree, Adaboost,Random Forest Classifier,Gradient Boosting was applied on the training data after testing and Predicton and validaion was performed on the test dataset.
 
